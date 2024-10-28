@@ -12,6 +12,7 @@ The raw scraped dataset can be found in the data folder. I utilized the open-sou
 A concise slide presentation can be found in the presentation folder
 
 ## House Listing Heatmap
+To to view the dynamic heat map, please use [this link](https://nbviewer.org/github/zxCyrus/SayHomee/blob/main/notebooks/SayHomee%20Data%20Sciencec%20Challenge.ipynb) by nbviewer.
 The heat map is rendered by folium, which is not natively supported by GitHub. If you want to view the dynamic heat map, see the Model notebook.
 This is a screenshot of the heat map.
 <img width="976" alt="Screen Shot 2024-10-28 at 12 30 59 AM" src="https://github.com/user-attachments/assets/ec95ea4a-b853-4086-b6f4-6b569e7c7a60">
