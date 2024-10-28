@@ -83,6 +83,7 @@ Along with list price (target/dv) it consists of other 56 house features: Certai
 
 ## Conclusions
 <img width="381" alt="Screen Shot 2024-10-28 at 12 36 36 AM" src="https://github.com/user-attachments/assets/7d96216e-d840-4f7a-853e-032e09414b96">
+<br>
 Linear Regression: Choose linear regression when simplicity is key and there’s no clear need for penalizing coefficients
 Lasso Regression (Best for Sparsity): Choose Lasso when prioritizing a simpler model with fewer less-impactful features (coefficients closer to zero).
 Ridge Regression (Best for Collinearity): Choose Ridge when suspecting collinearity between predictors but want to retain all features
