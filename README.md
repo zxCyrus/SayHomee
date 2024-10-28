@@ -24,62 +24,62 @@ Other common packages: warnings, pandas, numpy, matplotlib, seaborn, sklearn, da
 This dataset contains house listing sale prices for Greater Los Angeles Area. As you can see from my chosen parameters, I scraped house listing for sale from 2024-04-01 till 2024-10-25. The dataset is scraped from realtor using HomeHarvest library.
 
 Along with list price (target/dv) it consists of other 56 house features: Certainly! Here’s the general dataset description:
-property_url: URL link to the listing on Realtor.com.
-property_id: Unique identifier for each property.
-listing_id: Unique ID for each listing instance.
-mls: Multiple Listing Service (MLS) identifier, indicating the source MLS.
-mls_id: MLS-specific ID for each listing.
-status: Current status of the listing (e.g., "FOR_SALE").
-text: Description of the property.
-style: Style or type of the property (e.g., "MULTI_FAMILY," "SINGLE_FAMILY").
-full_street_line: Full address line.
-street
-unit
-city
-state
-zip_code
-beds: Number of bedrooms.
-full_baths: Number of full bathrooms.
-half_baths: Number of half bathrooms.
-sqft: Square footage of the interior living space.
-year_built: Year the property was originally built.
-days_on_mls: Number of days the property has been listed on the MLS.
-list_price: Current listing price.
-list_price_min: Minimum list price
-list_price_max: maximum list price
-list_date: Date when the property was listed.
-sold_price: Price at which the property was last sold, if available.
-last_sold_date: Date of the last sale of the property.
-assessed_value: Tax-assessed value of the property.
-estimated_value: Estimated market value of the property.
-new_construction: Indicates if the property is a new construction.
-lot_sqft: Square footage of the lot.
-price_per_sqft: Price per square foot of the property.
-latitude: Geographic coordinates
-longitude: Geographic coordinates
-neighborhoods: Neighborhood information: e.g. Central LA, Silver Lake, Central LA, Hollywood Hills
-county: County where the property is located.
-fips_code: FIPS (Federal Information Processing Standards) code for location.
-stories: Number of stories in the building.
-hoa_fee: Homeowners Association fee, if applicable.
-parking_garage: Information on garage parking availability.
-agent_id: Details of the listing agent
-agent_name: Details of the listing agent
-agent_email: Details of the listing agent
-agent_phones: Details of the listing agent
-agent_mls_set: Details of the listing agent
-broker_id: Brokerage company info
-broker_name: Brokerage company info
-builder_id: Builder details
-builder_name: Builder details
-office_id: Info about real estate office managing the listing
-office_mls_set: Info about real estate office managing the listing
-office_name: Info about real estate office managing the listing
-office_email: Info about real estate office managing the listing
-office_phones: Info about the real estate office managing the listing.
-nearby_schools: Nearby schools' information.
-primary_photo: URLs to primary photos of the property.
-alt_photos: URLs to alternate photos of the property.
+1. **property_url**: URL link to the listing on Realtor.com.
+2. **property_id**: Unique identifier for each property.
+3. **listing_id**: Unique ID for each listing instance.
+4. **mls**: Multiple Listing Service (MLS) identifier, indicating the source MLS.
+5. **mls_id**: MLS-specific ID for each listing.
+6. **status**: Current status of the listing (e.g., "FOR_SALE").
+7. **text**: Description of the property.
+8. **style**: Style or type of the property (e.g., "MULTI_FAMILY," "SINGLE_FAMILY").
+9. **full_street_line**: Full address line.
+10. **street**
+11. **unit**
+12. **city**
+13. **state**
+14. **zip_code**
+15. **beds**: Number of bedrooms.
+16. **full_baths**: Number of full bathrooms.
+17. **half_baths**: Number of half bathrooms.
+18. **sqft**: Square footage of the interior living space.
+19. **year_built**: Year the property was originally built.
+20. **days_on_mls**: Number of days the property has been listed on the MLS.
+21. **list_price**: Current listing price.
+22. **list_price_min**: Minimum list price
+23. **list_price_max**: maximum list price
+24. **list_date**: Date when the property was listed.
+25. **sold_price**: Price at which the property was last sold, if available.
+26. **last_sold_date**: Date of the last sale of the property.
+27. **assessed_value**: Tax-assessed value of the property.
+28. **estimated_value**: Estimated market value of the property.
+29. **new_construction**: Indicates if the property is a new construction.
+30. **lot_sqft**: Square footage of the lot.
+31. **price_per_sqft**: Price per square foot of the property.
+32. **latitude**: Geographic coordinates
+33. **longitude**: Geographic coordinates 
+34. **neighborhoods**: Neighborhood information: e.g. Central LA, Silver Lake, Central LA, Hollywood Hills	
+35. **county**: County where the property is located.
+36. **fips_code**: FIPS (Federal Information Processing Standards) code for location.
+37. **stories**: Number of stories in the building.
+38. **hoa_fee**: Homeowners Association fee, if applicable.
+39. **parking_garage**: Information on garage parking availability.
+40. **agent_id**: Details of the listing agent
+41. **agent_name**: Details of the listing agent
+42. **agent_email**: Details of the listing agent
+43. **agent_phones**: Details of the listing agent
+44. **agent_mls_set**: Details of the listing agent
+45. **broker_id**: Brokerage company info
+46. **broker_name**: Brokerage company info
+47. **builder_id**: Builder details
+48. **builder_name**: Builder details
+49. **office_id**: Info about real estate office managing the listing
+50. **office_mls_set**: Info about real estate office managing the listing
+51. **office_name**: Info about real estate office managing the listing
+52. **office_email**: Info about real estate office managing the listing
+53. **office_phones**: Info about the real estate office managing the listing.
+54. **nearby_schools**: Nearby schools' information.
+55. **primary_photo**: URLs to primary photos of the property.
+56. **alt_photos**: URLs to alternate photos of the property.
 
 ## Conclusions
 <img width="381" alt="Screen Shot 2024-10-28 at 12 36 36 AM" src="https://github.com/user-attachments/assets/7d96216e-d840-4f7a-853e-032e09414b96">
